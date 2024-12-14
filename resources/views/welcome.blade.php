@@ -35,9 +35,9 @@
                         Más
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#galeria">Clientes</a></li>
-                        <li><a class="dropdown-item" href="#testimonios">Arreglos</a></li>
-                        <li><a class="dropdown-item" href="#faq">FAQ</a></li>
+                        <li><a class="dropdown-item" href="{{ route('clientes.index') }}">Clientes</a></li>
+                        <li><a class="dropdown-item" href="{{ route('arreglos.index') }}">Arreglos</a></li>
+                        <li><a class="dropdown-item" href="{{ route('ventas.index') }}">Ventas</a></li>
                     </ul>
                 </li>
             </ul>
@@ -90,22 +90,32 @@
             y dedicación.</p>
     </section>
 
-    <section id="servicios" class="mt-5">
+    <section id="servicios" class="mt-6">
         <h2 class="text-center">Nuestros Servicios</h2>
         <div class="row text-center">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h4>Arreglos florales</h4>
                 <p>Descripción breve del servicio 1.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h4>Box Personalizados</h4>
                 <p>Descripción breve del servicio 2.</p>
             </div>
-            <div class="col-md-4">
-                <h4>Servicio 3</h4>
+            <div class="col-md-3">
+                <h4>Tendencias</h4>
                 <p>Descripción breve del servicio 3.</p>
             </div>
+            <div class="col-md-3">
+                <h4>Ocaciones</h4>
+                <p>Descripción breve del servicio 4.</p>
+            </div>
         </div>
+    </section>
+    <section id="contacto">
+        <h2 class="text-center">Contacto</h2>
+        <p class="text-center">Jr. Chincha Alta N°331</p>
+        <p class="text-center">personalizadosdalm@outlook.com</p>
+        <p class="text-center">+51 923 382 473 o +51 990 530 044</p>
     </section>
 </div>
 
