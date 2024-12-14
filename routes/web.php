@@ -11,6 +11,14 @@ Route::get('/', function () {
 
 Route::get('arreglos', [ArreglosController::class, 'index']);
 
+
+
+
+
 Route::get('clientes', [ClienteController::class, 'index']);
+
+
+
+
 
 route::get('productos', [ProductoController::class, 'index']);
