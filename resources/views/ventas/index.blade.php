@@ -6,6 +6,6 @@
     <title>Arreglos</title>
 </head>
 <body>
-    <h1>Pagina de productos</h1>
+    <h1>Pagina de Ventas</h1>
 </body>
 </html>
