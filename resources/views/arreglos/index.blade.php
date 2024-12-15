@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arreglos</title>
+    <title>Arreglos Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
     <h1>Pagina de arreglos</h1>
+    <a href="{{ route('welcome') }}" class="btn btn-danger mt-3 ">regresar</a>
 </body>
 </html>

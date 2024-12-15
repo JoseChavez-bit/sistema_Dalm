@@ -80,8 +80,8 @@
 </div>
 
 
-<div class="container mt-5">
-    <section id="nosotros">
+<div class="container mt-2 pd-2">
+    <section id="nosotros" class="mt-5">
         <h2 class="text-center">Sobre Nosotros</h2>
         <p class="text-center">Sabemos lo importante que es reflejar tu personalidad 
             en cada detalle,<br> por eso te ofrecemos productos personalizados hechos a 
@@ -90,32 +90,40 @@
             y dedicación.</p>
     </section>
 
-    <section id="servicios" class="mt-6">
-        <h2 class="text-center">Nuestros Servicios</h2>
+    <section id="servicios" class="mt-5 pd-3">
+        <h2 class="text-center mt-5">Nuestros Servicios</h2>
         <div class="row text-center">
             <div class="col-md-3">
                 <h4>Arreglos florales</h4>
-                <p>Descripción breve del servicio 1.</p>
+                <p>Creamos hermosos arreglos florales personalizados para transmitir 
+                    emociones en cualquier ocasión. Utilizamos flores frescas y 
+                    diseños únicos que destacan elegancia y buen gusto.</p>
             </div>
             <div class="col-md-3">
                 <h4>Box Personalizados</h4>
-                <p>Descripción breve del servicio 2.</p>
+                <p>Diseñamos cajas personalizadas con detalles exclusivos como flores, 
+                    chocolates y regalos especiales, ideales para sorprender a 
+                    tus seres queridos de manera original y creativa.</p>
             </div>
             <div class="col-md-3">
                 <h4>Tendencias</h4>
-                <p>Descripción breve del servicio 3.</p>
+                <p>Nos mantenemos a la vanguardia de las últimas tendencias en 
+                    diseño floral y decoración, combinando estilos modernos y 
+                    clásicos para ofrecer propuestas innovadoras y únicas.</p>
             </div>
             <div class="col-md-3">
                 <h4>Ocaciones</h4>
-                <p>Descripción breve del servicio 4.</p>
+                <p>Ofrecemos servicios adaptados a toda ocasión especial: 
+                    cumpleaños, aniversarios, bodas, eventos corporativos y 
+                    más, asegurando detalles perfectos que harán cada momento inolvidable.</p>
             </div>
         </div>
     </section>
-    <section id="contacto">
-        <h2 class="text-center">Contacto</h2>
-        <p class="text-center">Jr. Chincha Alta N°331</p>
-        <p class="text-center">personalizadosdalm@outlook.com</p>
-        <p class="text-center">+51 923 382 473 o +51 990 530 044</p>
+    <section id="contacto" class="mt-5">
+        <h2 class="text-center mt-2">Contacto</h2>
+        <p class="text-center mt-2">Jr. Chincha Alta N°331</p>
+        <p class="text-center mt-2">personalizadosdalm@outlook.com</p>
+        <p class="text-center mt-2">+51 923 382 473 o +51 990 530 044</p>
     </section>
 </div>
 
