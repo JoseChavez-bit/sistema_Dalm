@@ -10,7 +10,7 @@
 <body>
     <h1>Pagina de crear nuevo arreglo
     </h1>
-    <a href="{{ route('welcome') }}" class="btn btn-danger">regresar</a>
+    <a href="{{ route('arreglos.index') }}" class="btn btn-danger">regresar</a>
     <div class="container mt-2">
         <h1>Ingresar datos del arreglo</h1>
         
@@ -23,16 +23,15 @@
         <form action="{{ route('arreglos.create') }}" method="Get">
             @csrf
             <div class="mb-3">
-                <label for="title" class="form-label">Nombre</label>
+                <label for="title" class="form-label">nombre</label>
                 <input type="text" name="title" id="title" class="form-control" placeholder="" required>
-                <label for="" class="form-label">Apellido</label>
+                <label for="precio" class="form-label">Precio</label>
+                <input type="number" step="0.01" name="precio" class="form-control" required>
+                <label for="cantidad" class="form-label">Cantidad</label>
+                <input type="number" name="cantidad" class="form-control" required>
+                <label for="" class="form-label">Descrpción</label>
                 <input type="text" name="title" id="title" class="form-control" placeholder="" required>
-                <label for="" class="form-label">Dni</label>
-                <input type="text" name="title" id="title" class="form-control" placeholder="" required>
-                <label for="" class="form-label">Telefono</label>
-                <input type="text" name="title" id="title" class="form-control" placeholder="" required>
-                <label for="" class="form-label">Dirección</label>
-                <input type="text" name="title" id="title" class="form-control" placeholder="" required>
+                
             </div>
             <button type="submit" class="btn btn-primary">Guardar</button>
         </form>

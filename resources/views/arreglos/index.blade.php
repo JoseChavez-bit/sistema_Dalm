@@ -8,6 +8,8 @@
 </head>
 <body>
     <h1>Pagina de arreglos</h1>
-    <a href="{{ route('welcome') }}" class="btn btn-danger mt-3 ">regresar</a>
+    <a href="{{ route('welcome') }}" class="btn btn-danger mb-3 ">regresar</a>
+    <a href="{{ route('arreglos.create') }}" class="btn btn-primary mb-3">Agregar arreglo</a>
+
 </body>
 </html>

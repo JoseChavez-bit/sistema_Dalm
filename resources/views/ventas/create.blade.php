@@ -8,10 +8,10 @@
 
 </head>
 <body>
-    <h1 class="text-center">PAGINA DE VENTAS</h1>
-    <a href="{{ route('welcome') }}" class="btn btn-danger mt-3">regresar</a>
+    <h1 class="text-center">REGISTRO DE VENTAS</h1>
+    <a href="{{ route('ventas.index') }}" class="btn btn-danger mt-3">regresar</a>
     <div class="container mt-2">
-        <h1>Ingresar datos del Cliente</h1>
+        <h1>Ingresar datos de la nueva venta</h1>
         
         <!-- Mostrar mensajes de éxito -->
         @if(session('success'))
@@ -19,7 +19,7 @@
         @endif
         
         <!-- Formulario -->
-            <<form action="{{ route('ventas.create') }}" method="GET">
+            <form action="{{ route('ventas.create') }}" method="GET">
                 @csrf
                 <div class="mb-3">
                     <label for="producto" class="form-label">Producto</label>

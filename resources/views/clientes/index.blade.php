@@ -9,10 +9,8 @@
 </head>
 <body>
     <h1>Pagina de Clientes</h1>
-
-
-   
-    <a href="{{ route('welcome') }}" class="btn btn-danger mt-3 ">regresar</a>
+    <a href="{{ route('welcome') }}" class="btn btn-danger mb-3 ">regresar</a>
+    <a href="{{ route('clientes.create') }}" class="btn btn-primary mb-3">Agregar cliente</a>
 
 </body>
 </html>

@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Pagina de crear nuevo cliente</h1>
-    <a href="{{ route('welcome') }}" class="btn btn-danger">regresar</a>
+    <a href="{{ route('clientes.index') }}" class="btn btn-danger">regresar</a>
     <div class="container mt-2">
         <h1>Ingresar datos del Cliente</h1>
         
